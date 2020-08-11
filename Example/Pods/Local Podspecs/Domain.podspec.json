@@ -1,0 +1,22 @@
+{
+  "name": "Domain",
+  "version": "0.1.0",
+  "summary": "A short description of Domain.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/n.mozhaev/Domain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "n.mozhaev": "mozhaevnick@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/n.mozhaev/Domain.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Domain/Classes/**/*"
+}

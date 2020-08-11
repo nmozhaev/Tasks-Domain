@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint Domain.podspec' to ensure this is a
+# Be sure to run `pod lib lint TasksDomain.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Domain'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of Domain.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/n.mozhaev/Domain'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/nmozhaev/Tasks-Domain'
+  
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'n.mozhaev' => 'mozhaevnick@gmail.com' }
-  s.source           = { :git => 'https://github.com/n.mozhaev/Domain.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'nmozhaev' => 'mozhaevnick@gmail.com' }
+  s.source           = { :git => 'https://github.com/nmozhaev/Tasks-Domain.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  s.swift_versions = '5.2'
 
   s.source_files = 'Domain/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Domain' => ['Domain/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
