@@ -9,16 +9,13 @@
 Pod::Spec.new do |s|
   s.name             = 'Domain'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of Domain.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'This pod includes all necessary Domain information used in the Tasks app.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This pod includes all necessary Domain information used in the Tasks app.
+  It includes
+  - structs like User and Task which are used in main application and platforms (e.g. CoreDataPlatform or RealmPlatform).
+  - protocols that describe service and provider for them.
                        DESC
 
   s.homepage         = 'https://github.com/nmozhaev/Tasks-Domain'
